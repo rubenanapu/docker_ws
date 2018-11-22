@@ -93,7 +93,5 @@ RUN apt-get autoremove -y
 #
 # ------------------------------------------------------------------------------
 ENV DEBIAN_FRONTEND teletype
-COPY ./bashrc.sh /
 USER user
-# ENTRYPOINT ["/bashrc.sh"]
 CMD ["bash"]
